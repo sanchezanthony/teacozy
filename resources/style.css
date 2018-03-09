@@ -1,0 +1,176 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/** header **/
+
+.top{
+  text-align: left;
+  padding-top: 10px;
+  flex: 1;
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  background-color: black;
+}
+
+.top img{
+  padding-left: 10px;
+  height: 50px;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  flex: 4;
+  padding-right: 10px;
+}
+
+nav a{
+  margin-right: 5px;
+  margin-left: 25px;
+  color: seashell;
+}
+
+/** image text**/
+
+#mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(images/background.jpg);
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-top: 70px
+}
+
+
+.info{
+  diaply: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+}
+
+h2, h4{
+  display:block;
+  font-weight: bold;
+}
+
+h2{
+  margin-bottom: -5px;
+}
+
+h4{
+  margin-top: -5px;
+}
+
+/** Teas **/
+
+
+.images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tea{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+  display: block;
+}
+
+.menu{
+  padding: 5px;
+}
+
+.menu img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.menu a{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align:center;
+}
+
+/** Locations **/
+
+#locations{
+  background-image: url(images/locations.jpg);
+  height: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-top: 100px;
+}
+
+#locations .locations2{
+  padding-top: 15px;
+  width: 1200px;
+}
+
+
+.locations2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.downtown,
+.east,
+.oakdale{
+  padding: 10px;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px 20px;
+  flex-basis: 250px;
+  width: 300px;
+}
+
+
+.locations2 a{
+  display: block;
+  margin: 0px;
+  padding: 10px;
+}
+
+.contact{
+  height: 200px;
+  display: block;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
